@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <style>
+      .card-header {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <title>Pertemuan 8</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pertemuan 8</h1>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Latihan 1</div>
+            <div class="card-body">
+              <textarea cols="30" rows="10" class="form-control" disabled="disabled">
+                <xmp>
+                  ======================================================
+
+                  <html>
+                    <head><title>Latihan Pembuatan Form</title>
+                    </head>
+                    <body>
+                    <!--NIM, NAMA, JENIS KELAMIN, AGAMA, STATUS, JURUSAN, KOMENTAR.-->
+                        <form>
+                            <H1> Form Pendaftaran</H1><hr>
+                            <PRE>
+                                NIM : <input type="text" size="11" name="nim">
+                                NAMA : <input type="text" size="25" name="nama">
+                                JENIS KELAMIN : <input type="radio" name="jkel" value="Pria">Pria <input
+                                type="radio" name="jkel" value="Wanita">Wanita
+                                AGAMA : <select name=agama>
+                                <option value="Islam">Islam</option>
+                                <option value="Katoholik">Katholik</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                </select>
+                                STATUS: <input type="radio" name="status" value="kawin">Kawin <input
+                                type="radio" name="status" value="belumkawin">Belum Kawin
+                                JURUSAN : <select name="jurusan" Size="1">
+                                <option value ="Teknik Informatika"> Teknik Informatika </option>
+                                <option value ="Manajemen Informatika"> Manajemen Informatika
+                                </option>
+                                <option value ="Teknik Komputer"> Teknik Komputer </option>
+                                <option value ="Teknik Industri"> Teknik Industri </option>
+                                </select>
+                                Hoby : <input type="checkbox" name="hoby" value="Futsal">Futsal <input
+                                type="checkbox" name="hoby" value="Renang">Renang <input
+                                type="checkbox" name="hoby" value="Traveling">Traveling
+                                KETERANGAN:
+                                <textarea name="ket" rows="3" cols="30"></textarea>
+                            </PRE>
+                            <BR>
+                        </form>
+                    </body>
+                  </html>
+
+                </xmp>
+              </textarea>
+            </div>
+            <div class="card-header">Hasil Dari Script Tersebut</div>
+            <div class="card-body">
+              <img src="img/pertemuan8a.png" width="1024px" alt="" />
+            </div>
+            <div class="card-header">Tugas Akhir</div>
+            <div class="card-body">
+              <textarea cols="30" rows="10" class="form-control" disabled="disabled">
+                  <xmp>
+                    ======================================================
+                  </xmp>
+                  <html>
+                    <head>
+                        <title>Tugas Akhir Form Pertemuan 8</title>
+                        <style type="text/css">
+                            h1{
+                                color: blue;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div align="center">
+                            <H1 bgcolor="blue"> Free Registration</H1><hr>
+                            <form action="" method="">
+                                <table align="center">
+                                    <tr>
+                                        <td>Nama</td>
+                                        <td>:</td>
+                                        <td>
+                                            <input type="text" name="nama">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tgl Lahir</td>
+                                        <td>:</td>
+                                        <td>
+                                            <input type="text" name="tgl">/
+                                            <input type="text" name="bln">/
+                                            <input type="text" name="tahun">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Alamat</td>
+                                        <td>:</td>
+                                        <td>
+                                            <input type="text" row="10">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kota</td>
+                                        <td>:</td>
+                                        <td><input type="text" name="kota"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pekerjaan</td>
+                                        <td>:</td>
+                                        <td>
+                                            <select name="pekerjaan">
+                                                <option>Tani</option>
+                                                <option>Karyawan</option>
+                                                <option>Guru</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jenis Kelamin</td>
+                                        <td>:</td>
+                                        <td>
+                                            <input type="radio" name="laki" value="Laki Laki">Laki Laki
+                                            <input type="radio" name="cewek" value="Perempuan"> Perempuan
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hobby</td>
+                                        <td>:</td>
+                                        <td>
+                                            <input type="checkbox" name="hoby" value="reading">Reading <br>
+                                            <input type="checkbox" name="hoby" value="Sport">Sport <br>
+                                            <input type="checkbox" name="hoby" value="Singing">Singing <br>
+                                            <input type="checkbox" name="hoby" value="Traveling">Traveling
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"></td>
+                                        <td>
+                                            <input type="submit" name="kirim">
+                                            <input type="submit" name="cancel">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </body>
+                    </html>
+
+                  </xmp>
+                </textarea
+              >
+            </div>
+            <div class="card-header">Hasil Dari Script Tersebut</div>
+            <div class="card-body">
+              <img src="img/pertemuan8b.png" width="1024px" alt="TugasAkhir" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="../tugas.html"><<<<< Back To Menu</a>
+    </div>
+  </body>
+</html>

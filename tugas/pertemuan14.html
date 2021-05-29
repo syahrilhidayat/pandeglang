@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <style>
+      .card-header {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <title>Pertemuan 14</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pertemuan 14</h1>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Latihan 1</div>
+            <div class="card-body">
+              <textarea cols="30" rows="10" class="form-control" disabled="disabled">
+                <xmp>
+                  ======================================================
+                  
+                  <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                        <title>Pengenalan JavaScript</title>
+                    </head>
+                    <body>
+                        <script>
+                        var myFirstVariabel;
+                        myFirstVariabel = "Hello";
+                        alert(myFirstVariabel);
+                        myFirstVariabel = 54321;
+                        alert(myFirstVariabel);
+                        var string1 = "Hai How Are You?";
+                        var string2 = "Good Bye";
+                        string2 = string1;
+                        alert(string2);
+                        document.write("Nilai Dari String1 =", string1, "<br>");
+                        document.write("Nilai Dari String2 =", string2, "<br>");
+                        string1 = "Nor For something different";
+                        alert(string1);
+                        alert(string2);
+                        document.write("Hasil String1 setelah diubah", string1, "<br>");
+                        document.write("Hasil String2 setelah diubah", string2, "<br>");
+                        </script>
+                    </body>
+                    </html>
+
+
+                </xmp>
+              </textarea>
+            </div>
+            <div class="card-header">Hasil Dari Script Tersebut</div>
+            <div class="card-body">
+              <img src="img/pertemuan14aa.png" alt="" />
+              <img src="img/pertemuan14ab.png" alt="" />
+              <img src="img/pertemuan14ac.png" alt="" />
+              <img src="img/pertemuan14ad.png" alt="" />
+              <img src="img/pertemuan14ae.png" alt="" />
+              <img src="img/pertemuan14af.png" width="1024" alt="" />
+            </div>
+            <div class="card-header">Latihan 2</div>
+            <div class="card-body">
+              <textarea cols="30" rows="10" disabled="disabled" class="form-control">
+                    <plaintext>
+                      ======================================================
+                      
+                      <!DOCTYPE html>
+                      <html lang="en">
+                        <head>
+                          <meta charset="UTF-8" />
+                          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                          <title>Latihan 2 JavaScript</title>
+                        </head>
+                        <body>
+                          <script>
+                            document.bgColor = "lightblue";
+                            document.write("<font face='tahoma' size=5 color='red'>>  test JavaScript ");
+                            //contoh penggunaan variabel numerik
+                            a = 20;
+                            b = 15;
+                            c = a * b;
+                            document.write("test<br>");
+                            var nilai1 = 67;
+                            var nilai2 = 80;
+                            rata2 = (nilai1 + nilai2) / 2;
+                            //contoh penggunaan variabel string
+                            nama = "Syahril";
+                            alamat = "Pandeglang";
+                            document.write("nilai a=", a, "<br>");
+                            document.write("nilai b=", b, "<br>");
+                            document.write("nilai", a, " * ", b, " = ", c, "<br><br>");
+                            document.write("nilai 1 =", nilai1, "<br>");
+                            document.write("nilai 2 =", nilai2, "<br>");
+                            document.write("nilai Rata-rata =", rata2, "<br>");
+                            document.write("Nama Saya=", nama, "<br>");
+                            document.write("Alamat Saya=", alamat, "<br>");
+                            alert("Oke Sudah Berhasil");
+                          </script>
+                        </body>
+                      </html>
+
+  
+                    </plaintext>
+                </textarea
+              >
+            </div>
+            <div class="card-header">Hasil Dari Script Tersebut</div>
+            <div class="card-body">
+              <img src="img/pertemuan14b.png" alt="Pertemuan2b" width="1024px" />
+              <img src="img/pertemuan14ba.png" alt="Pertemuan2b" width="1024px" />
+            </div>
+            <div class="card-header">Tugas Akhir</div>
+            <div class="card-body">
+              <textarea cols="30" rows="10" class="form-control" disabled="disabled">
+                  <plaintext>
+                    ======================================================
+                  
+                    <!DOCTYPE html>
+                    <html lang="en">
+                      <head>
+                        <title>Tugas Akhir 14</title>
+                      </head>
+                      <body>
+                        <h1>Tugas Akhir 14</h1>
+                        <h1 id="test">....</h1>
+                        <label>Sisi1</label>
+                        <input id="sisi1" type="number" />
+                        <label>Sisi2</label>
+                        <input id="sisi2" type="number" />
+                        <label>Tinggi</label>
+                        <input id="tinggi" type="number" />
+                        <button onclick="hitung_ruas()">Hitung</button>
+                    
+                        <script>
+                          function hitung_ruas() {
+                            sisi1 = document.getElementById("sisi1").value;
+                            sisi2 = document.getElementById("sisi2").value;
+                            tinggi = document.getElementById("tinggi").value;
+                            hasil = ((sisi1 + sisi2) * tinggi) / 2;
+                            document.getElementById("test").innerText = hasil;
+                          }
+                        </script>
+                      </body>
+                    </html>
+                    
+
+                  </plaintext>
+                </textarea
+              >
+            </div>
+            <div class="card-header">Hasil Dari Script Tersebut</div>
+            <div class="card-body">
+              <img src="img/pertemuan14c.png" width="1024px" alt="TugasAkhir" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="../tugas.html"><<<<< Back To Menu</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+/* slider */
+/* .carousel-item {
+  height: 780px;
+} */
+
+#menu a {
+  padding-top: 3px;
+}
+#wisataPantai {
+  background-color: #0099ff;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#wisataPantai ul li {
+  list-style: none;
+  text-align: left;
+}
+#wisataPantai ul hr {
+  border-color: white;
+  border-width: 3px;
+}
+#wisataPantai h4 {
+  text-align: center;
+}
+
+#wisataPulau {
+  background-color: lightskyblue;
+  color: white;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#wisataPulau h4 {
+  text-align: center;
+}
+
+#wisataGunung {
+  background-color: #3cb371;
+  color: white;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#wisataGunung h4 {
+  text-align: center;
+}
+#wisataGunung ul li {
+  list-style: none;
+  text-align: center;
+}
+#wisataGunung ul hr {
+  border-color: white;
+  border-width: 3px;
+  width: 200px;
+}
+
+#wisataAlam {
+  background-color: #32cd32;
+  color: white;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#wisataAlam h4 {
+  text-align: center;
+}
+#wisataAlam ul li {
+  list-style: none;
+}
+#wisataAlam ul hr {
+  border-color: white;
+  border-width: 3px;
+  width: 200px;
+}
+#wisata {
+  background-color: #808080;
+  color: white;
+  padding-top: 10px;
+}
+#wisata ul li {
+  list-style: none;
+}
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}

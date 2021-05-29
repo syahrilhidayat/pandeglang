@@ -1,0 +1,13 @@
+h4 {
+  text-align: center;
+  color: brown;
+}
+body {
+  background-image: url(img/tugas/tugas.jpg);
+  background-size: cover;
+}
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
